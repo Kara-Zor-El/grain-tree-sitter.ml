@@ -1,0 +1,3 @@
+[submodule "vendor/tree-sitter-grain"]
+	path = vendor/tree-sitter-grain
+	url = https://github.com/Kara-Zor-El/tree-sitter-grain.git

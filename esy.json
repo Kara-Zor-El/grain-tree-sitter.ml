@@ -1,0 +1,24 @@
+{
+  "name": "@grain/grain-tree-sitter",
+  "version": "0.1.0",
+  "esy": {
+    "build": [
+      "dune build -p grain_tree_sitter --no-buffer"
+    ],
+    "buildEnv": {
+      "DUNE_BUILD_DIR": "#{self.target_dir}"
+    }
+  },
+  "dependencies": {
+    "@opam/dune": ">= 3.17.1 < 4.0.0",
+    "@opam/reason": ">= 3.11.0 <= 3.15.0",
+    "@opam/tree-sitter": "0.1.0",
+    "ocaml": "5.2.0"
+  },
+  "devDependencies": {
+    "@opam/js_of_ocaml-compiler": "6.0.1"
+  },
+  "installConfig": {
+    "pnp": false
+  }
+}

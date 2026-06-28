@@ -1,0 +1,10 @@
+{
+  "name": "@grain/grain-tree-sitter",
+  "version": "0.1.0",
+  "devDependencies": {
+    "tree-sitter-cli": "0.26.8"
+  },
+  "scripts": {
+    "build:wasm": "cd vendor/tree-sitter-grain && tree-sitter build --wasm"
+  }
+}
