@@ -1,5 +1,6 @@
 {
   "name": "@grain/grain-tree-sitter",
+  "author": "Kara Wilson <kara.wilson.2005.08@gmail.com",
   "version": "0.1.0",
   "devDependencies": {
     "tree-sitter-cli": "0.26.8"
