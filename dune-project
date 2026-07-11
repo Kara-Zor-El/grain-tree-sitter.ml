@@ -6,4 +6,9 @@
 
 (package
  (name grain_tree_sitter)
- (synopsis "Tree-sitter bindings for Grain"))
+ (synopsis "Tree-sitter bindings for Grain")
+ (depends
+  dune
+  reason
+  tree-sitter
+  tree-sitter-grain))

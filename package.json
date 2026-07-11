@@ -2,10 +2,7 @@
   "name": "@grain/grain-tree-sitter",
   "author": "Kara Wilson <kara.wilson.2005.08@gmail.com",
   "version": "0.1.0",
-  "devDependencies": {
-    "tree-sitter-cli": "0.26.8"
-  },
   "scripts": {
-    "build:wasm": "cd vendor/tree-sitter-grain && tree-sitter build --wasm"
+    "build:wasm": "npm run build-wasm --prefix ../tree-sitter-grain"
   }
 }

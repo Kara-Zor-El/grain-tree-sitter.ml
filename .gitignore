@@ -3,5 +3,3 @@ node_modules/
 _build/
 *.install
 esy.lock/
-vendor/tree-sitter-grain/node_modules/
-vendor/tree-sitter-grain/tree-sitter-grain.wasm

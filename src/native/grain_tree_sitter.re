@@ -9,7 +9,7 @@ module Backend = {
     type t = parser;
 
     let create = () => {
-      let language = Grammar.language();
+      let language = Tree_sitter_grain.language();
       Parser.create(language);
     };
 

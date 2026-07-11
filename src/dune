@@ -1,17 +1,3 @@
-(copy_files#
- (files ../vendor/tree-sitter-grain/src/parser.c))
-
-(library
- (name grammar)
- (public_name grain_tree_sitter.grammar)
- (modules)
- (libraries tree-sitter)
- (modes native)
- (foreign_stubs
-  (language c)
-  (names parser grain_tree_sitter)
-  (include_dirs ../vendor/tree-sitter-grain/src)))
-
 (library
  (name edit)
  (public_name grain_tree_sitter.edit)
