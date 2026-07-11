@@ -7,6 +7,12 @@
     ],
     "buildEnv": {
       "DUNE_BUILD_DIR": "#{self.target_dir}"
+    },
+    "exportedEnv": {
+      "TREE_SITTER_GRAIN_WASM_PATH": {
+        "val": "#{@grain/tree-sitter-grain.root}/tree-sitter-grain.wasm",
+        "scope": "global"
+      }
     }
   },
   "dependencies": {
