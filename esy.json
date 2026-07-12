@@ -26,7 +26,7 @@
     "@opam/js_of_ocaml-compiler": "6.0.1"
   },
   "resolutions": {
-    "@grain/tree-sitter-grain": "Kara-Zor-El/tree-sitter-grain#4ce736bbb1e1255d3210eb3c5c767dcadb240667"
+    "@grain/tree-sitter-grain": "link:../tree-sitter-grain"
   },
   "installConfig": {
     "pnp": false
