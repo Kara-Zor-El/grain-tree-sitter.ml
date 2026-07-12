@@ -1,6 +1,7 @@
 {
   "name": "@grain/grain-tree-sitter",
   "author": "Kara Wilson <kara.wilson.2005.08@gmail.com",
+  "license": "LGPL-3.0-only",
   "version": "0.1.0",
   "scripts": {
     "build:wasm": "npm run build-wasm --prefix ../tree-sitter-grain"
